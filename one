@@ -28,7 +28,7 @@
     background: url("https://webstockreview.net/images/clipart-rain-gif-transparent.gif");
   }
   h3 {
-    margin: 0px 30px 30px 0px;
+    margin: 0px 200px 30px 0px;
     font-family: 'Tenor Sans', sans-serif;
     font-size: 30px;
     color: #ff0000;
@@ -45,16 +45,16 @@
     border: 2px solid black;
     border-radius: 90px;
     margin: -32px 0px 10px 0px;
+    opacity: .5;
   }
   img:hover {
-    opacity: .5;
+    opacity: 1;
   }
   li {
     display: inline;
   }
   h4 {
     text-align: center;
-    margin: 30px 0px 10px 0px;
     color: #fa7878;
     text-shadow: 1px 1px #ff0000;
     font-family: 'Tenor Sans', sans-serif;
@@ -82,6 +82,9 @@
     color: #04b1c8;
     text-shadow: 2px 2px #02545f;
   }
+  button { 
+    margin: 0px 0px 0px 200px;
+  }
 
 
   @media (max-width: 500px) {
@@ -102,6 +105,7 @@
     h4 {
       color: #ff0000;
       text-shadow: 1px 1px #fa7878;
+      text-align: center;
     }
     p {
       max-width: 250px;
@@ -118,7 +122,7 @@
       max-width: 300px;
       }
     li {
-      display: 
+     text-align: center;
     }
     p.sideways {
       opacity: 0;
@@ -138,7 +142,7 @@
   <h3>hello</h3>
   <button onclick="myFunction()">hey</button>
   <p id="about-me"></p>
-  <p class="sideways">welcome to the party, shoes off please</p>
+  <p class="sideways">welcome, shoes off please</p>
 
 
 <article>
@@ -148,15 +152,13 @@
     <li>631-946-4304</li>
   </ul>
 </article>
-<h5>are we having fun yet?
-</h5>
+<h5>here for a good time!</h5>
 <script>
-  alert('hooo brother javascript!!');
+  alert('oh baby javascript!!');
   function myFunction() {
     document.getElementById("about-me").innerHTML = "I'm a 27-year old living in Brooklyn, New York. I'm mostly into fashion, video games, and my two cats. I'm looking to broaden my capabilities and challenge myself by learning how to create and maintain the world that stimulates me daily!"
   }
   
 </script>
 </body>
-    
 
