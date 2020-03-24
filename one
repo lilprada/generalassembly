@@ -1,0 +1,162 @@
+<!DOCSTYLE html>
+<head> 
+  <title>caitliN Farrell</title>
+  <link href="/normalize.css" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Carter+One|Contrail+One|Tenor+Sans|Vampiro+One|Yantramanav&display=swap" rel="stylesheet">
+</head>
+
+<style> 
+  h1 {
+    font-family: 'Carter One', cursive;
+    color: #fa7878;
+    outline: 3px solid black;
+    font-size: 60px;
+    background: url("https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0060/5603/rrrrGray_Plaid_shop_thumb.png");
+    background-size: cover;
+    text-shadow: 2px 2px #ff0000;
+    margin: 0 auto;
+  }
+  h2 {
+    font-family: 'Contrail One', cursive;
+    font-size: 30px;
+    margin: 12px 0px 40px 0px;
+    color: #000000;
+    text-shadow: 1px 2px #6b6b6b;
+  }
+  header {
+    text-align: center;
+    background: url("https://webstockreview.net/images/clipart-rain-gif-transparent.gif");
+  }
+  h3 {
+    margin: 0px 30px 30px 0px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 30px;
+    color: #ff0000;
+    text-shadow: 2px 1px #fa7878;
+    text-align: right;
+  }
+  p {
+    font-family: 'Yantramanav', sans-serif;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: justify;
+  }
+  img {
+    border: 2px solid black;
+    border-radius: 90px;
+    margin: -32px 0px 10px 0px;
+  }
+  img:hover {
+    opacity: .5;
+  }
+  li {
+    display: inline;
+  }
+  h4 {
+    text-align: center;
+    margin: 30px 0px 10px 0px;
+    color: #fa7878;
+    text-shadow: 1px 1px #ff0000;
+    font-family: 'Tenor Sans', sans-serif;
+  }
+  article {
+    max-width: 500px;
+    margin: 0 auto;
+    background-image: url("https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0706/4415/r0-BUFFALO-PLAID-600-wht-gray_shop_thumb.png");
+    border-radius: 10px;
+  }
+  ul {
+    font-family: 'Yantramanav', sans-serif;
+    text-align: center;
+  }
+  p.sideways {
+    font-family: 'Yantramanav', sans-serif;
+    writing-mode: vertical-rl;
+    float: left;
+    color: #ff0000;
+    text-shadow: 1px 1px #fa7878;
+  }
+  h5 {
+    font-family: 'Vampiro One', cursive;
+    font-size: 40px;
+    color: #04b1c8;
+    text-shadow: 2px 2px #02545f;
+  }
+
+
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 40px;
+      color: #ff0000;
+      text-shadow: 2px 2px #fa7878;
+    }
+    h2 {
+      font-size: 25px;
+      color: #6b6b6b;
+      text-shadow: 1px 2px #000000;
+    }
+    h3 {
+      color: #fa7878;
+      text-shadow: 2px 1px #ff0000;
+    }
+    h4 {
+      color: #ff0000;
+      text-shadow: 1px 1px #fa7878;
+    }
+    p {
+      max-width: 250px;
+      color: #ffffff;
+    }
+    body {
+      background: #000000;
+    }
+    img {
+      border: 2px solid white;
+    }
+    article {
+      margin: 0px 10px 0px 10px;
+      max-width: 300px;
+      }
+    li {
+      display: 
+    }
+    p.sideways {
+      opacity: 0;
+    }
+    h5 {
+      font-size: 15px;
+  }
+  }
+
+  </style>
+<body>
+  <header>
+  <h1>caitliN Farrell</h1>
+  <h2>national nuisance</h2>
+  <img src="https://media-exp1.licdn.com/dms/image/C4D03AQG5arF7TKb_Aw/profile-displayphoto-shrink_200_200/0?e=1590624000&v=beta&t=MPpBA7UDEN-HP27i3z-KUZZ1eVelyJ4PVII_SpZQJos"> 
+  </header> 
+  <h3>hello</h3>
+  <button onclick="myFunction()">hey</button>
+  <p id="about-me"></p>
+  <p class="sideways">welcome to the party, shoes off please</p>
+
+
+<article>
+  <h4>contact info</h4>
+  <ul>
+    <li>farrell.caite@gmail.com</li>
+    <li>631-946-4304</li>
+  </ul>
+</article>
+<h5>are we having fun yet?
+</h5>
+<script>
+  alert('hooo brother javascript!!');
+  function myFunction() {
+    document.getElementById("about-me").innerHTML = "I'm a 27-year old living in Brooklyn, New York. I'm mostly into fashion, video games, and my two cats. I'm looking to broaden my capabilities and challenge myself by learning how to create and maintain the world that stimulates me daily!"
+  }
+  
+</script>
+</body>
+    
+
